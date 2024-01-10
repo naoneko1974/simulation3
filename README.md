@@ -13,6 +13,7 @@ Ubuntu 20.04.3
 PHP 8.2.7
 Laravel 8.83.27
 MySQL 8.0.26
+node.js 12.22.9
 
 ##開発環境導入方法
 
