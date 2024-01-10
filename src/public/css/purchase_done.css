@@ -1,0 +1,23 @@
+.done {
+    width:300px;
+    margin:100px auto;
+}
+
+h2 {
+    text-align:center;
+}
+
+.done__link {
+    margin-top:100px;
+}
+
+.done__link a {
+    padding:5px 100px;
+    border:none;
+    border-radius:2px;
+    text-decoration:none;
+    text-align:center;
+    background-color:#ff5555;
+    font-weight:bold;
+    color:white;
+}

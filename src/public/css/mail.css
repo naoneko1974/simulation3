@@ -1,0 +1,66 @@
+.mail {
+    width:768px;
+    margin:0 auto;
+}
+
+h3 {
+    margin-top:50px;
+    text-align:center;
+}
+
+.form__mail {
+    width:300px;
+    margin:50px auto;
+}
+
+
+.form__mail-content p {
+    margin:5px;
+    font-size:13px;
+}
+
+.form__mail-name input {
+    width:300px;
+}
+
+.form__error {
+    color:red;
+}
+
+.form__mail-message textarea {
+    width:300px;
+    height:150px;
+    resize:none;
+}
+
+.form__mail-button {
+    margin:30px 0 20px 0;
+}
+
+.form__mail-submit {
+    width:300px;
+    height:30px;
+    padding:5px;
+    border:none;
+    border-radius:5px;
+    background-color:#ff5555;
+    font-size:13px;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+}
+
+.back {
+    padding:5px 137px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ff5555;
+    font-weight: bold;
+    font-size:13px;
+    color: white;
+    cursor: pointer;
+}
+
+

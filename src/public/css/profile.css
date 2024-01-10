@@ -1,0 +1,89 @@
+.profile {
+    width:100%;
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.form__profile-user {
+    margin: 50px auto;
+    width:400px;
+}
+
+.form__profile-img-tag {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(217, 217, 217);
+}
+
+.form__profile-img img {
+    width: 100%;
+    vertical-align: baseline;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.form__profile-img-label {
+    width:150px;
+    margin: 40px 0 20px 20px;
+}
+
+.form__profile-img-label label {
+    padding: 3px 20px;
+    border: solid 1px #ff5555;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 15px;
+    color: #ff5555;
+    cursor: pointer;
+}
+
+.form__profile-user p {
+    margin: 15px 0 0 50px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form__profile-img-label p {
+    margin: 10px 0 0 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form__profile-item {
+    margin:5px 0 0 50px;
+}
+
+.form__profile-item input {
+    width:300px;
+    height: 30px;
+}
+
+.form__error {
+    color:red;
+}
+
+.form__profile-button {
+    margin:30px 0 0 50px;
+}
+
+.form__profile-submit {
+    width:300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff5555;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}

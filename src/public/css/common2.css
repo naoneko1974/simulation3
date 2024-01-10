@@ -1,0 +1,17 @@
+.header {
+    background-color: black;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin:5px 20px 5px 30px;
+    width:300px;
+    text-decoration: none;
+    font-size:35px;
+    font-weight: bold;
+    color:white;
+}

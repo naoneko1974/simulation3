@@ -1,0 +1,60 @@
+.address {
+    width: 100%;
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.address__detail {
+    margin: 50px auto;
+    width: 300px;
+}
+
+.address__detail p {
+    margin: 30px 0 0 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.address__item {
+    margin-top: 5px;
+}
+
+.address__item input {
+    width: 300px;
+    height: 30px;
+}
+
+.form__error {
+    color: red;
+}
+
+.address__update {
+    margin: 50px 0 20px 0 ;
+}
+
+.address__update-link {
+    padding:5px 123px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #ff5555;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.address__back {
+    padding:5px 137px;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ff5555;
+    font-weight: bold;
+    font-size:13px;
+    color: white;
+    cursor: pointer;
+}

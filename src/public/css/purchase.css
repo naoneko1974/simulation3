@@ -1,0 +1,240 @@
+.purchase {
+    width:1000px;
+    margin:50px auto;
+}
+
+.form__purchase {
+    display: flex;
+}
+
+.purchase__item {
+    width: 60%;
+    margin-left:30px;
+}
+
+.purchase__item-detail {
+    display: flex;
+}
+
+.item__img {
+    width: 20%;
+}
+
+.item__img img {
+    width: 100%;
+}
+
+.item__detail {
+    margin-left:50px;
+}
+
+.item__name p {
+    margin-top:0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item__payment {
+    display: flex;
+    margin-top:20px;
+}
+
+h4 {
+    width: 120px;
+}
+
+.item__payment select {
+    width:150px;
+    height: 30px;
+    margin-top:17px;
+}
+
+.form__error {
+    font-size:12px;
+    color:red;
+}
+
+.item__payment input {
+    margin:3px 0 0 155px;
+    border:none;
+    background-color:transparent;
+    font-size:16px;
+    color:blue;
+    cursor:pointer;
+}
+
+.purchase__address {
+    display: flex;
+    margin-top:20px;
+}
+
+.purchase__address-detail {
+    width:300px;
+    margin-top:20px;
+}
+
+.purchase__address-detail input {
+    margin:5px;
+    border:none;
+    outline:none;
+    font-size: 13px;
+}
+
+.address__change {
+    margin: 20px 10px;
+}
+
+.address__change-link {
+    text-decoration: none;
+}
+
+.purchase__detail table {
+    width: 300px;
+    height: 300px;
+    border: solid 2px rgb(200,200,200);
+    border-radius: 5px;
+}
+
+.purchase__detail-ttl {
+    padding-left: 30px;
+    width:150px;
+    font-size: 15px;
+}
+
+.purchase__detail-item {
+    width:150px;
+    font-size:15px;
+}
+
+.purchase__button-submit {
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff5555;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .purchase {
+        width:768px;
+        margin:50px auto;
+    }
+
+    .form__purchase {
+        display: flex;
+    }
+
+    .purchase__item {
+        width: 60%;
+        margin-left:30px;
+    }
+
+    .purchase__item-detail {
+        display: flex;
+    }
+
+    .item__img {
+        width: 20%;
+    }
+
+    .item__img img {
+        width: 100%;
+    }
+
+    .item__detail {
+        margin-left:50px;
+    }
+
+    .item__name p {
+       margin-top:0;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .item__payment {
+        display: flex;
+        margin-top:20px;
+    }
+
+    h4 {
+        width: 100px;
+    }
+
+    .item__payment select {
+        width:150px;
+        height: 30px;
+        margin-top:17px;
+    }
+
+    .form__error {
+        font-size:12px;
+        color:red;
+    }
+
+    .item__payment input {
+        margin:3px 0 0 55px;
+        border:none;
+        background-color:transparent;
+        font-size:13px;
+        color:blue;
+        cursor:pointer;
+    }
+
+    .purchase__address {
+       display: flex;
+        margin-top:20px;
+    }
+
+    .purchase__address-detail {
+        width:200px;
+        margin-top:20px;
+    }
+
+    .purchase__address-detail input {
+        margin:5px;
+        border:none;
+        outline:none;
+        font-size: 13px;
+    }
+
+    .address__change {
+        margin: 20px 10px;
+    }
+
+    .address__change-link {
+        text-decoration: none;
+        font-size:13px;
+    }
+
+    .purchase__detail table {
+        width: 200px;
+        height: 200px;
+        border: solid 2px rgb(200,200,200);
+        border-radius: 5px;
+    }
+
+    .purchase__detail-ttl {
+        padding-left: 20px;
+        width:100px;
+        font-size: 10px;
+    }
+
+    .purchase__detail-item {
+        width:100px;
+        font-size:10px;
+    }
+
+    .purchase__button-submit {
+        width: 200px;
+        height: 30px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 3px;
+        background-color: #ff5555;
+        color: white;
+        cursor: pointer;
+    }
+}
