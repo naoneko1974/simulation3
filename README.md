@@ -27,6 +27,8 @@ node.js 12.22.9
 
 ・PHPコンテナ内で php artisan migrate および php artisan db:seed 実行。
 
+・シンボリックリンク php artisan storage:link 実行。
+
 ・ユーザー認証：fortifyを使用
 
 ・メール送信：Mailtrapを使用（開発環境）
