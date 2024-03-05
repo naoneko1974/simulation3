@@ -1,6 +1,6 @@
 ##アプリケーション名
 
-COACHTECHフリマアプリ
+フリマアプリ
 
 ##作成した目的
 
@@ -10,6 +10,7 @@ COACHTECHフリマアプリ
 
 Windows10Pro
 Ubuntu 20.04.3
+Docker 24.0.7
 PHP 8.2.7
 Laravel 8.83.27
 MySQL 8.0.26
